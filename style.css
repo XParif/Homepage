@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 4%;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+.nav-list {
+}
+.nav-list ul {
+  display: flex;
+}
+.nav-list ul li {
+  margin-left: 2rem;
+  list-style-type: none;
+  text-transform: capitalize;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav-list ul li:hover,
+.nav-list ul li.active {
+  color: black;
+  cursor: pointer;
+}
+.button-group {
+}
+
+.button-group a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.login-btn:hover {
+  color: black;
+}
+.get-started-btn {
+  margin-left: 2rem;
+  background-color: #58ca7e;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.get-started-btn:hover {
+  background-color: #33c463;
+}
+
+.hero-section {
+  width: 50%;
+  margin-top: 15%;
+  margin-left: 20%;
+  color: white;
+}
+
+.large-text {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.border-text {
+  display: flex;
+}
+.border {
+  font-size: 27px;
+  padding: 5px 23px;
+}
+.border-text .border-text-1 {
+  border: 5px solid white;
+}
+.border-text .border-text-2 {
+  border: 5px solid rgb(110, 28, 28);
+}
+.border-text .border-text-3 {
+  border: 5px solid white;
+}
+.para-text {
+  margin-top: 5%;
+  line-height: 1.5rem;
+}
+.see-btn {
+  display: inline-block;
+  margin-top: 5%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  transition: 0.5s;
+}
+
+.see-btn:hover {
+  background-color: rgb(20, 100, 204);
+  border: 2px solid rgb(20, 100, 204);
+}
